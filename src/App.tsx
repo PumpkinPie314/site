@@ -1,13 +1,13 @@
-import { useState } from 'react'
-// import './App.css'
+import Nav from './Nav';
+import Post from './Post';
 
 function App() {
   return (
-    <>
-      <div className='flex-col w-100% h-dvh '>
-        <div className='mt-20 flex-1'>
-          <p>home</p>
-          <p>hello world</p>
+    <> 
+      <div className='flex-col w-100% h-dvh bg-gray-900 '>
+        <Nav />
+        <div id="posts">
+          <Post />
         </div>
       </div>
     </>
